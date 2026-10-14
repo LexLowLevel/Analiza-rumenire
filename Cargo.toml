@@ -1,0 +1,9 @@
+[package]
+name = "analiza-rumenire"
+version = "0.1.0"
+edition = "2021"
+description = "Măsoară luminozitatea L* a feliilor de măr din fotografii"
+license = "MIT"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
